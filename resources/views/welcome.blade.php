@@ -10,7 +10,7 @@
 
 
     </head>
-    <body>
+    <body><!--Main PArt -->
         <div class="container">
             {!! Html::link('signup', 'Sign Up') !!}
 
