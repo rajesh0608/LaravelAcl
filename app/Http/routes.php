@@ -18,7 +18,7 @@ Route::post('loginme', 'AdminController@checklogin');
 /**
  * For Authenticate Purpose
  */
-Route::group(['middleware' => 'auth'], function(){
+Route::group(['middleware' => 'auth'], function(){ //session purpose also use d middleware
 
 Route::get('userProfile', 'AdminController@getprofile');
 Route::get('logout', 'AdminController@logOut');
